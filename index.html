@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Red Bull Sports</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="/css/style.css" rel="stylesheet">
+  <script defer src ="js/app.js"></script>
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <ul id="navbar__list">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" data-nav="Home">
+      <div class="landing__container">
+            <h1>Red Bull Sports</h1>
+        </div>
+    </section>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Mike Swanson">
+      <div class="landing__container">
+        <h2>Mike Swanson</h2>
+        <img id="mikeswanson" src="https://images.squarespace-cdn.com/content/v1/57ddb6e91b631b2a7865611a/1510035265463-H8FJ1U50XCFKLIOQKE38/P-20160115-00197_hires_jpeg_24bit_rgb.jpg?format=800w517h">
+        <p>The third generation skydiver made his name by taking gold multiple times in a discipline known in the early days as freeflying. Throughout his career he has won multiple gold medals, US national championship titles, and international championship titles </p>
+
+        <p>His drive, dedication and skill in skydiving has made him known as the undisputed <i>king of the skies</i> and has allowed him to explor other avenues of aerial sports</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Jaylen Brown">
+      <div class="landing__container">
+        <h2>Jaylen Brown</h2>
+        <img id="jaylenbrown" src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/2/14/ukumvldgjobpcueqz793/jaylen-brown" width="800" height="517">
+        <p>Since being drafted in 2016 by the Boston Celtics the All-Star forward in the 2022 season has averaged 23 points per game and has had a field goal percentage of 47% and a 3 point percentage of 35% cementing why he is one of the leaders of the Boston Celtics.</p>
+
+        <p>Brown makes sure to reflect that leadership off the court by empowering kids, fighting racial injustice, and redefining what it means to be a star in the NBA today</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Neymar">
+      <div class="landing__container">
+        <h2>Neymar</h2>
+        <img id="neymar" src="https://img.redbull.com/images/c_limit,w_800,h_517,f_auto,q_auto/redbullcom/2020/1/6/qfmmtbzu2q1lhyxpsoy8/neymar-jr-paris">
+        <p>The Brazilian Legend started out at the Brazilian club <i>Santos</i> before departing for <i>FC Barcelona</i> where he teamed up with Football Greats Lionel Messi and Luis Suarez cementing his legacy as one of the best footballers of his generation. He now plays for <i>Paris Saint German</i> where he hopes to add more trophies, titles, and awards to his already illustrious career.</p>
+
+        <p>He is the host of <b>Red Bull Neymar Jr's Five</b> which is a fast, fun and thrilling competition where Neymar Jr seeks out the world's best street soccer stars.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Ninja">
+      <div class="landing__container">
+        <h2>Ninja</h2>
+        <img id="ninja" src="https://archive.esportsobserver.com/wp-content/uploads/2019/03/Ninja-Red-Bull-Can-Deal.jpg">
+        <p>Ninja, also known as Tyler Blevins, is a champion "Fortnite" player. He also has more than 13 million followers on <i>Instagram</i> and <i>Twitch</i> and an additional 20 million subscribers on <i>Youtube</i></p>
+
+        <p>The 27-year old Illinois native who dropped out of community college has learned to turn his extraordinary personality and considerable gaming talent into an unmatched, hugely profitable enterprise</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+</body>
+</html>
