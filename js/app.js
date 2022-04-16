@@ -47,10 +47,10 @@ const NavList=document.createDocumentFragment();
             //this section of the code is an if else statement saying that wherever the user is on the page the active class will be added to that section and then removed once the user 
             //continues to scroll down to the next section 
             if(section.getBoundingClientRect().top >= 0 && section.getBoundingClientRect().top <= 350) {
-                section.classList.add("active");
+                section.classList.add("your-active-class");
             } 
             else {
-                section.classList.remove("active");
+                section.classList.remove("your-active-class");
             }
             
         }
