@@ -1,8 +1,11 @@
-Table of Contents
-Instructions
-Instructions
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+#Udacity - Landing Page
+This project is the third project in the Udacity Front End Web Developer Nanodegree course
+##Task
+The aim of this project is to build a landing page that is dynamic in nature and allows the user to create content/manipulate content on the page like the navigation using Javascript via the app.js and the project should be able to scale based on screen size 
+##Tech stack
+HTML
+CSS
+Javascript
+##Dependencies
+Index.html requires proper linkage to app.js and style.css located in the css and js folders within this project
 
-To get started, open js/app.js and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
