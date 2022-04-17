@@ -48,9 +48,11 @@ const NavList=document.createDocumentFragment();
             //continues to scroll down to the next section 
             if(section.getBoundingClientRect().top >= 0 && section.getBoundingClientRect().top <= 350) {
                 section.classList.add("your-active-class");
+                section.classList.add("menu__link:hover");
             } 
             else {
                 section.classList.remove("your-active-class");
+                section.classList.remove("menu__link:hover");
             }
             
         }
